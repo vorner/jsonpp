@@ -2,6 +2,11 @@
 name = "jsonpp"
 version = "0.1.0"
 authors = ["Michal 'vorner' Vaner <vorner@vorner.cz>"]
+publish = false
+repository = "https://github.com/vorner/jsonpp"
+description = "JSON pretty printer"
+readme = "README.md"
+license = "Apache-2.0/MIT"
 
 [dependencies]
 failure = "~0.1"
