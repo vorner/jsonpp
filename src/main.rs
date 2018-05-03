@@ -13,6 +13,7 @@ fn run() -> Result<(), Error> {
         let line = line?;
         let json = serde_json::from_str::<Value>(&line)?;
         serde_json::to_writer_pretty(io::stdout(), &json)?;
+        println!();
     }
     Ok(())
 }
